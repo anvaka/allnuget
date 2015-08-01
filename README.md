@@ -1,14 +1,19 @@
 # allnuget
 
-Crawler of the nuget packages
+Crawler of the [nuget](https://www.nuget.org/) packages
 
 # install
 
-With [npm](https://npmjs.org) do:
+These simple steps will produce local version of the NuGet graph:
 
 ```
-npm install allnuget
+git clone https://github.com/anvaka/allnuget
+cd allnuget
+node index.js
+node layout.js
 ```
+
+The ouptut is stored to `./data` folder, and can be consumed by [pm visualization](https://github.com/anvaka/pm)
 
 # license
 
